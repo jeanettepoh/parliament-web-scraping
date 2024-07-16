@@ -47,12 +47,8 @@ The data is then retrieved for visualisation in ```data_visualisation.ipynb```, 
 
 The following notebooks are independent from one another and should be run separately.
 
-<br>
-
 - ```association.ipynb```
 - ```classification.ipynb```
 - ```visualisation.ipynb```
-
-<br>
 
 The required data to run the above notebooks are stored in ```data```. All generated plots are saved in sub-folders of ```figures``` which correspond to the respective notebook names.
