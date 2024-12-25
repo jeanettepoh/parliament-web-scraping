@@ -1,6 +1,6 @@
 # Data Science Case Studies - Web Scraping and Visualization
 
-The codes and plots for parliament web scraping task can be found in ```section_one```. The codes and plots in ```section_two``` focus on other datasets to extract insights via data visualization and perform some classification.
+The codes and plots for parliament web scraping task can be found in ```section_one```. You can view a summary of the overall analysis in the attached file ```parliament_case_study_analysis.pptx```.
 
 ## Code Structure
 
@@ -9,17 +9,11 @@ parliament_web_scraping
 ├── LICENSE
 ├── README.md
 ├── env.yml
-├── section_one/
-│   ├── figures/
-│   ├── scraped_data/
-│   ├── data_visualisation.ipynb
-│   └── web_scraping.ipynb
-└── section_two/
-    ├── data/
+└── section_one/
     ├── figures/
-    ├── association.ipynb
-    ├── classification.ipynb
-    └── visualisation.ipynb
+    ├── scraped_data/
+    ├── data_visualisation.ipynb
+    └── web_scraping.ipynb
 ```
 ## Conda Environment
 
@@ -42,13 +36,3 @@ Web scraping was performed to obtain data from the [Official Reports - Parliamen
 ```web_scraping.ipynb```. The extracted data is stored in ```scraped_data```.
 
 The data is then retrieved for visualisation in ```data_visualisation.ipynb```, and the respective plots are stored in ```figures```.
-
-## Section Two
-
-The following notebooks are independent from one another and should be run separately.
-
-- ```association.ipynb```
-- ```classification.ipynb```
-- ```visualisation.ipynb```
-
-The required data to run the above notebooks are stored in ```data```. All generated plots are saved in sub-folders of ```figures``` which correspond to the respective notebook names.
