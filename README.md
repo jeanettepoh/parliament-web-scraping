@@ -1,4 +1,4 @@
-# Data Science Case Studies - Web Scraping and Visualization
+# Parliament Web Scraping and Data Visualization
 
 The codes and plots for parliament web scraping task can be found in ```section_one```. You can view a summary of the overall analysis in the attached file ```parliament_case_study_analysis.pptx```.
 
